@@ -63,7 +63,25 @@ An Open Source Framework for Real-Time ML on Streaming Data
 - Product trend prediction in e-commerce
 
 ---
+## 🔍 Comparison to Other Tools
 
+While StreamFlowAI draws inspiration from great tools like Kubeflow, ZenML, and Kafka-ML, it offers a unique blend:
+
+- **Streaming-first**: Real-time pipelines using Kafka/Kinesis + Apache Beam.
+- **Modular design**: Easily swap in your own model, serving layer, or pipeline runner.
+- **Lightweight, fast start**: Run the entire platform locally with Docker Compose or deploy to Kubernetes with Helm.
+- **Built for demos, resumes, and education**: Minimal setup, clear code, and prebuilt DAGs + dashboards.
+
+| Tool         | Streaming | ML Tracking | Serving | Orchestration | Modularity | Dashboard |
+|--------------|-----------|-------------|---------|---------------|------------|-----------|
+| **StreamFlowAI** | ✅         | ✅           | ✅       | ✅             | ✅          | ✅         |
+| Kubeflow     | ❌         | ⚠️           | ✅       | ✅             | ⚠️          | ❌         |
+| ZenML        | ❌         | ✅           | ✅       | ✅             | ✅          | ⚠️         |
+| Kafka-ML     | ✅         | ❌           | ✅       | ❌             | ❌          | ❌         |
+| LangStream   | ✅         | ❌           | ⚠️       | ⚠️             | ❌          | ⚠️         |
+
+> StreamFlowAI is ideal for building and demonstrating real-time ML pipelines using well-known open source tools, without the overhead of full MLOps stacks.
+---
 ## 🛠️ Tech Stack
 
 | Layer             | Tools Used                                        |
