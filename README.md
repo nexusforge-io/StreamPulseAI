@@ -69,8 +69,8 @@ While StreamPulseAI draws inspiration from great tools like Kubeflow, ZenML, and
 
 - **Streaming-first**: Real-time pipelines using Kafka/Kinesis + Apache Beam.
 - **Modular design**: Easily swap in your own model, serving layer, or pipeline runner.
-- **Lightweight, fast start**: Run the entire platform locally with Docker Compose or deploy to Kubernetes with Helm.
-- **Built for demos, resumes, and education**: Minimal setup, clear code, and prebuilt DAGs + dashboards.
+- **Lightweight**: Run the entire platform locally with Docker Compose or deploy to Kubernetes with Helm.
+- **Fast-start**: Minimal setup, clear code, and prebuilt DAGs + dashboards.
 
 | Tool         | Streaming | ML Tracking | Serving | Orchestration | Modularity | Dashboard |
 |--------------|-----------|-------------|---------|---------------|------------|-----------|
