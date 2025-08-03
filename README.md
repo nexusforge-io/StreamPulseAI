@@ -65,7 +65,7 @@ An Open Source Framework for Real-Time ML on Streaming Data
 ---
 ## 🔍 Comparison to Other Tools
 
-While StreamFlowAI draws inspiration from great tools like Kubeflow, ZenML, and Kafka-ML, it offers a unique blend:
+While StreamPulseAI draws inspiration from great tools like Kubeflow, ZenML, and Kafka-ML, it offers a unique blend:
 
 - **Streaming-first**: Real-time pipelines using Kafka/Kinesis + Apache Beam.
 - **Modular design**: Easily swap in your own model, serving layer, or pipeline runner.
@@ -74,13 +74,13 @@ While StreamFlowAI draws inspiration from great tools like Kubeflow, ZenML, and 
 
 | Tool         | Streaming | ML Tracking | Serving | Orchestration | Modularity | Dashboard |
 |--------------|-----------|-------------|---------|---------------|------------|-----------|
-| **StreamFlowAI** | ✅         | ✅           | ✅       | ✅             | ✅          | ✅         |
+| **StreamPulseAI** | ✅         | ✅           | ✅       | ✅             | ✅          | ✅         |
 | Kubeflow     | ❌         | ⚠️           | ✅       | ✅             | ⚠️          | ❌         |
 | ZenML        | ❌         | ✅           | ✅       | ✅             | ✅          | ⚠️         |
 | Kafka-ML     | ✅         | ❌           | ✅       | ❌             | ❌          | ❌         |
 | LangStream   | ✅         | ❌           | ⚠️       | ⚠️             | ❌          | ⚠️         |
 
-> StreamFlowAI is ideal for building and demonstrating real-time ML pipelines using well-known open source tools, without the overhead of full MLOps stacks.
+> StreamPulseAI is ideal for building and demonstrating real-time ML pipelines using well-known open source tools, without the overhead of full MLOps stacks.
 ---
 ## 🛠️ Tech Stack
 
@@ -100,8 +100,8 @@ While StreamFlowAI draws inspiration from great tools like Kubeflow, ZenML, and 
 ## ⚡ Quickstart (Docker Compose)
 
 ```bash
-git clone https://github.com/yourusername/streamflowai.git
-cd streamflowai
+git clone https://github.com/yourusername/StreamPulseAI.git
+cd StreamPulseAI
 docker-compose up --build
 
 
