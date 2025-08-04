@@ -1,0 +1,70 @@
+milestones:
+  - title: MVP – Core Streaming ML Platform
+    due_on: 2025-09-15
+issues:
+  - milestone: MVP – Core Streaming ML Platform
+    title: Kafka consumer starter
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Kinesis client connector
+  - milestone: MVP – Core Streaming ML Platform
+    title: Unit tests for ingestion modules
+  - milestone: MVP – Core Streaming ML Platform
+    title: Apache Beam local pipeline
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: PySpark EMR job template (optional)
+  - milestone: MVP – Core Streaming ML Platform
+    title: Feature generation logic
+  - milestone: MVP – Core Streaming ML Platform
+    title: Baseline scikit‑learn sentiment model
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: MLflow experiment tracking
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Model version control via MLflow
+  - milestone: MVP – Core Streaming ML Platform
+    title: Retraining DAG automation
+  - milestone: MVP – Core Streaming ML Platform
+    title: TensorFlow Serving deployment config
+  - milestone: MVP – Core Streaming ML Platform
+    title: MLflow REST serve endpoint
+  - milestone: MVP – Core Streaming ML Platform
+    title: Docker container for model serving
+  - milestone: MVP – Core Streaming ML Platform
+    title: Streamlit prediction & status interface
+  - milestone: MVP – Core Streaming ML Platform
+    title: Basic Airflow DAG (ingestion → ml)
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Retraining + feature-gen DAG
+  - milestone: MVP – Core Streaming ML Platform
+    title: DAG template generator
+  - milestone: MVP – Core Streaming ML Platform
+    title: Streamlit app stub
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Real‑time observability & latency dashboards
+  - milestone: MVP – Core Streaming ML Platform
+    title: Model prediction page in dashboard
+  - milestone: MVP – Core Streaming ML Platform
+    title: Docker Compose run setup
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Kubernetes YAML manifests
+  - milestone: MVP – Core Streaming ML Platform
+    title: Helm chart packaging
+  - milestone: MVP – Core Streaming ML Platform
+    title: Prometheus/Grafana observability integration
+  - milestone: MVP – Core Streaming ML Platform
+    title: Distributed tracing with OpenTelemetry
+  - milestone: MVP – Core Streaming ML Platform
+    title: MkDocs site configuration
+    state: closed
+  - milestone: MVP – Core Streaming ML Platform
+    title: Quickstart guide
+  - milestone: MVP – Core Streaming ML Platform
+    title: Architecture overview doc
+  - milestone: MVP – Core Streaming ML Platform
+    title: Contributing guide / CONTRIBUTING.md
